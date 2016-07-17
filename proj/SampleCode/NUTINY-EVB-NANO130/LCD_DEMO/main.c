@@ -200,7 +200,7 @@ int32_t main(void)
 			}
 			else if(d<0.0)
 			{
-				int dd = (int)d;
+				int dd = (int)-d;
 				LCDLIB_PutChar(0,0,'-');
 				LCDLIB_PutChar(0,1,dd/100+'0');
 				LCDLIB_PutChar(0,2,dd/10%10+'0');
